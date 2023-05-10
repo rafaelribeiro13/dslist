@@ -13,7 +13,7 @@ public class Belonging {
 
     @EmbeddedId
     @Column(name = "cd_belonging")
-    private BelongingPK id;
+    private BelongingPK id = new BelongingPK();
 
     @Column(name = "qt_position")
     private Integer position;
