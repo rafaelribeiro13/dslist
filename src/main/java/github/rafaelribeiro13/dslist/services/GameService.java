@@ -27,6 +27,15 @@ public class GameService {
     }
 
     @Transactional(readOnly = true)
+    public List<GameMinDto> findAllByGameList(Long gameListId) {
+        return repository
+                .findByGameList(gameListId)
+                .stream()
+                .map(game -> GameMinDto.from(game))
+                .toList();
+    }
+
+    @Transactional(readOnly = true)
     public GameDto findById(Long id) {
         var game = repository
                 .findById(id)

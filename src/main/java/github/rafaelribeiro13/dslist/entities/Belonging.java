@@ -5,11 +5,12 @@ import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
 @Table(name = "tb_belonging")
-public class Belonging {
+public class Belonging implements Serializable {
 
     @EmbeddedId
     @Column(name = "cd_belonging")

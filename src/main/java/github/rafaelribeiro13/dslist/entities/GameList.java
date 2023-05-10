@@ -2,9 +2,11 @@ package github.rafaelribeiro13.dslist.entities;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @Entity
 @Table(name = "tb_game_list")
-public class GameList {
+public class GameList implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
