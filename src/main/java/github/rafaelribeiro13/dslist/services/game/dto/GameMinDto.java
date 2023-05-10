@@ -1,4 +1,4 @@
-package github.rafaelribeiro13.dslist.dtos;
+package github.rafaelribeiro13.dslist.services.game.dto;
 
 import github.rafaelribeiro13.dslist.entities.Game;
 

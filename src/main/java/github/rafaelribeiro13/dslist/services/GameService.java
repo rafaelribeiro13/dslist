@@ -1,7 +1,7 @@
 package github.rafaelribeiro13.dslist.services;
 
-import github.rafaelribeiro13.dslist.dtos.GameDto;
-import github.rafaelribeiro13.dslist.dtos.GameMinDto;
+import github.rafaelribeiro13.dslist.services.game.dto.GameDto;
+import github.rafaelribeiro13.dslist.services.game.dto.GameMinDto;
 import github.rafaelribeiro13.dslist.repositories.GameRepository;
 import github.rafaelribeiro13.dslist.services.exceptions.ResourceNotFoundException;
 import org.springframework.stereotype.Service;

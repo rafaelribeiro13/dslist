@@ -1,7 +1,7 @@
 package github.rafaelribeiro13.dslist.controllers;
 
-import github.rafaelribeiro13.dslist.dtos.GameDto;
-import github.rafaelribeiro13.dslist.dtos.GameMinDto;
+import github.rafaelribeiro13.dslist.services.game.dto.GameDto;
+import github.rafaelribeiro13.dslist.services.game.dto.GameMinDto;
 import github.rafaelribeiro13.dslist.services.GameService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
